@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="{MovieName}，{Actor}，电影，在线观看 ">
+<meta name="description" content="{MovieName}，{Actor}，在线观看">
+
+<title>正在观看{MovieName} -电影-第一影院</title>
+
+
+    <link href="Style/diyibk.min.css" rel="stylesheet" type="text/css" />
+  
+    <link href="Style/playlink.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico?v=4fdcf" />
+
+
+<style>
+
+.ad-bottom-container {
+position:relative;
+height:60px;
+width:100%;
+margin-top:0px;
+}
+.ad-bottom-holder {
+height:60px;
+width:960px;
+margin:0 auto;
+}
+</style>
+</head>
+<body>
+
+<div class="x-pl-container">
+<div class="x-pl-sidebar">
+
+<div class="x-pl-playsource">当前视频由
+<a href="{PlayUrl}" rel="nofollow"><span class="x-pl-sourcename">{Site}</span></a> 提供。
+</div>
+
+<div class="x-pl-info">
+<p class="x-pl-title">
+<a href="/movie/{MovieId}">{MovieName}</a>
+</p>
+<p> 年份：{Year}
+
+<br>
+导演：{Director}
+
+
+<br>
+主演：{Actor}
+
+<br>
+</p>
+<p>
+<div class="btn-group x-usermovie-buttons x-usermovie-controls">
+
+{Like}
+{Plan}
+{Seen}
+
+</div>
+
+</p>
+<div>
+
+正在播放 <b>{PlayName}</b>。<br>
+
+
+</div>
+</div>
+
+<div style="height:39px;padding-left:9px;">
+<p style="color:red;margin:0">邀请朋友一起观看吧 </p>
+<!-- Baidu Button BEGIN -->
+<div style="height:24px; width:180px;" id="bdshare" class="bdshare_t pull-right bds_tools get-codes-bdshare" data="{'text': '一起来看《{MovieName}》吧', 'comment':'', 'pic': '{ImagePath}', 'desc': '提供用户最震撼的观看体验。在第一影院，您可以便捷地找到最新、最热的互联网视频，更有丰富的视频榜单、多样的视频专题满足您不同的视频观看需求'}">
+<a class="bds_tsina"></a>
+<a class="bds_douban"></a>
+<a class="bds_renren"></a>
+<a class="bds_kaixin001"></a>
+<a class="bds_tqq"></a>
+</div>
+<!-- Baidu Button END -->
+</div>
+
+
+<div class="x-pl-info">
+<span class="muted"> &copy; <a href="/" target="_blank">第一影院</a></span>
+<a href="http://www.diyibk.com" target="_blank" style="color: red;">第一博客</a>
+</div>
+
+</div>
+<button class="btn x-pl-hiddenbtn"><i class="icon-chevron-left"></i> </button>
+<div class="x-pl-main">
+
+
+<iframe id="iframe" frameborder="0" src="{PlayUrl}" id="play_area">
+</iframe>
+
+
+</div>
+</div>
+<div id="kankanadm" style="" class="maskLayer"></div>
+<script src="/JS/jquery.min.js"></script>
+<script src="/JS/bootstrap.min.js"></script>
+ <script src="/JS/list_more_gai.js" type="text/javascript"></script>
+<script>
+
+
+    $('.x-pl-hiddenbtn').click(function () {
+        if ($('i', this).hasClass('icon-chevron-left')) {
+            $('i', this).removeClass('icon-chevron-left');
+            $('i', this).addClass('icon-chevron-right');
+            $('.x-pl-main').css('margin-left', '0');
+            $(this).css('left', '10px');
+            $('.x-pl-sidebar').hide();
+        } else {
+            $('i', this).removeClass('icon-chevron-right');
+            $('i', this).addClass('icon-chevron-left');
+            $('.x-pl-main').css('margin-left', '200px');
+            $(this).css('left', '200px');
+            $('.x-pl-sidebar').show();
+        }
+    });
+
+    $('#relative_movie').delegate('a[data-toggle="tab"]', 'mouseenter', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).tab('show');
+    });
+</script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+﻿.XL_CLOUD_VOD_BUTTON_btn_b{cursor:pointer;background:url(/picture/button_png.png) no-repeat !important;display:inline-block !important}
+.XL_CLOUD_VOD_BUTTON_btn_b:hover{ filter:alpha(opacity=90); opacity:.9;}
+
+.XL_CLOUD_VOD_BUTTON_yundianbo_btn_sec_big{width:76px !important;height:31px !important;background-position:0 -230px !important;}
+.XL_CLOUD_VOD_BUTTON_yundianbo_btn_sec_normal{width:76px !important;height:23px !important;background-position:0 -261px !important;}
+.XL_CLOUD_VOD_BUTTON_yundianbo_btn_sec_small{width:58px !important;height:17px !important;background-position:0 -284px !important;}
+
+.XL_CLOUD_VOD_BUTTON_yundianbo_btn_big{width:76px !important;height:31px !important;background-position: 0 -154px!important;  }
+.XL_CLOUD_VOD_BUTTON_yundianbo_btn_normal{width:76px !important;height:23px !important;background-position: 0 -187px!important; }
+.XL_CLOUD_VOD_BUTTON_yundianbo_btn_small{width:58px !important;height:17px !important;background-position: 0 -212px!important; }
+
+.XL_CLOUD_VOD_BUTTON_duyan_btn_big{width:75px !important;height:31px !important;background-position: 0 0!important;  }
+.XL_CLOUD_VOD_BUTTON_duyan_btn_normal{width:76px !important;height:23px !important;background-position: 0 -33px!important; }
+.XL_CLOUD_VOD_BUTTON_duyan_btn_small{width:58px !important;height:17px !important;background-position:0 -58px!important; }
+
+.XL_CLOUD_VOD_BUTTON_yunyulan_btn_big{width:75px !important;height:31px !important;background-position: 0 -77px!important;  }
+.XL_CLOUD_VOD_BUTTON_yunyulan_btn_normal{width:76px !important;height:23px !important;background-position: 0 -110px!important; }
+.XL_CLOUD_VOD_BUTTON_yunyulan_btn_small{width:58px !important;height:17px !important;background-position:0 -135px!important; }

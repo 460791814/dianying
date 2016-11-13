@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>第一影院-优秀电影推荐,最新最好看的电影,最有意思的互联网视频 </title>
+
+<meta name="viewport" content="minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link href="/Style/Default.css" rel="stylesheet" type="text/css" />
+<link href="/Style/Style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="" />
+
+
+<meta name="description" content="第一影院为您提供最新好看的电影电视剧,免费电视剧、高清电影在线观看和互联网视频，同时提供个性化电影收藏功能，为您量身打造最优秀的影视观赏平台">
+<meta name="keywords" content="第一影院，电影，最新视频，最新电影，在线观看，电视剧，热门电影，互联网视频">
+
+
+
+
+<style type="text/css">
+body .navbar .navbar-inner{
+background: url(Images/header-bg-gradient.png) 0 0 repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60000000,endColorstr=#60000000);
+}
+body{
+
+background-image: url(/{ImagePath});
+background-size: cover;
+background-position: center 0;
+background-color: #000;
+}
+.xx-play-button{
+width:200px;
+height:130px;
+position: fixed;
+top: 45%;
+left: 50%;
+margin-top: -69px;
+margin-left: -100px;
+background-image: url(Images/trans.gif);
+}
+.xx-play-button a{
+width:100%;
+height:100%;
+display: block;
+}
+.x-kankan-detail{
+height:122px;
+width: 600px;
+bottom:100px;
+margin-left: -420px;
+padding: 15px;
+background-color: rgba(0,0,0, .4);
+font-size: 11px;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+}
+.x-kankan-detail-full{
+width: 600px;
+bottom:70px;
+margin-left: -420px;
+padding: 15px;
+background-color: rgba(0,0,0, .4);
+font-size: 11px;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+}
+.x-kankan-detail p{
+margin-bottom: 0px;
+}
+.x-kankan-buttons {
+position: fixed;
+bottom: 90px;
+left: 50%;
+margin-left: 220px;
+width: 200px;
+}
+.revision-score {
+position:absolute;
+font-weight:normal;
+right:30px;
+font-size:13px;
+color:rgb(225,191,123);
+}
+.revision-btn-history {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#66000000', endColorstr='#66000000');
+background:url(Images/no-image.jpg);
+background:rgba(0,0,0,0.4);
+color:#eee;
+width:26px;
+height:81px;
+display:block;
+border-right:1px solid #0f0f0f;
+float:left;
+text-align:center;
+}
+:root .revision-btn-history {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00000000', endColorstr='#00000000');
+}/*for IE9*/
+.revision-btn-history:hover {
+background-color: #000;
+color: #fff;
+}
+.revision-btn-alpha {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');
+background:url(Images/no-image.jpg);
+background:rgba(0,0,0,0.6);
+display:block;
+text-align:center;
+color:#eee;
+float:left;
+}
+:root .revision-btn-alpha {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00000000', endColorstr='#00000000');
+}/*for IE9*/
+.revision-btn-alpha:hover {
+color:#fff;
+background-color:#000
+}
+.btn-normal {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');
+background:url(Images/no-image.jpg);
+background:rgba(0,0,0,0.6);
+display:block;
+text-align:center;
+color:#eee;
+float:left;
+}
+:root .btn-normal {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00000000', endColorstr='#00000000');
+}/*for IE9*/
+.btn-normal:hover {
+color:#fff;
+background-color:#000
+}
+.btn-danger {
+background-color:#f50f43;
+display:block;
+text-align:center;
+color:#eee;
+float:left;
+}
+.btn-warning {
+background-color:#fe781e;
+display:block;
+text-align:center;
+color:#eee;
+float:left;
+}
+.btn-success {
+background-color:#41bb19;
+display:block;
+text-align:center;
+color:#eee;
+float:left;
+}
+.revision-btn-like {
+width:50px;
+height:66px;
+border-right:1px solid #0f0f0f;
+}
+.revision-btn-plan {
+width:50px;
+height:66px;
+}
+.revision-btn-seen {
+width:50px;
+height:66px;
+border-right: 1px solid #0f0f0f;
+}
+.revision-btn-dislike {
+width:50px;
+height:66px;
+border-right: 1px solid #0f0f0f;
+}
+.revision-btn-next {
+width:176px;
+height:81px;
+font-size:17.5px;
+}
+.revision-btn-more {
+width:53px;
+height:66px;
+border-right: 1px solid #0f0f0f;
+}
+.ie-compatible {
+background:url(Images/no-image.jpg);
+}
+.adversiting{position:fixed; left:0; top: 0; width:100%; height:100%; z-index:999999;}
+.adversiting .h{width:100%; height:100%; background:#000; opacity:0.8; filter:alpha(opacity=80); position:absolute; top:0px; left:0px;}
+.adversiting .c{width:720px; height:462px; background:url(Images/adsd.png) no-repeat; position:absolute; top:50%; left:50%; margin-top: -231px; z-index:1000000; margin-left:-360px;}
+.adversiting .close{width:16px; height:16px; position: absolute; top:37px; left:687px; display:block; }
+.adversiting .get{width:166px; height:30px; position: absolute; top:366px; left:484px; display:block;}
+</style>
+<script>
+    function hidePopup() {
+
+        $("#adversiting").fadeOut();
+        return false;
+    }
+</script>
+
+<meta property="qc:admins" content="551557634161167665" />
+</head>
+<body >
+{header}
+<div id="main_content" style="width:960px;" class="container">
+
+<div class="x-kankan">
+<div id="x-kankan-detail" class="x-kankan-detail">
+<p class="x-kankan-title" style="margin-bottom:5px;">
+<a href="/movie/{MovieId}" target="_blank" class="q" data-toggle="tooltip" title="点击查看《{MovieName}》的详细资料" data-placement="top"> 
+{MovieName}
+</a>
+<span class="revision-score">
+
+&nbsp;
+ 豆瓣{DBScore}
+
+
+
+</span>
+</p>
+<p class="x-kankan-desc" style='font:12px "微软雅黑", "宋体", Arial, SunSans-Regular, Sans-Serif;line-height:1.62;'>
+{SubIntro}
+
+<a href="#" id="show_full_desc">显示更多</a>
+<div class="x-kankan-full-desc" style="display: none;">
+{Intro}
+</div>
+
+<!--<a target="_blank" href="/movie/pacific-rim" alt=环太平洋 id="show_full_desc">显示更多</a> -->
+</p>
+
+<p class="muted" style="margin-top:5px;">{Type}</p>
+<p class="muted x-kankan-starring">主演：{Actor}</p>
+</div>
+</div>
+<div id="mark" style="width:210px;" class="x-usermovie-controls x-kankan-buttons">
+<div class="btn-group" data-btn="btn-normal">
+
+{Like}
+{Seen}
+{Plan}
+
+
+</div>
+<div class="btn-group" style="margin:5px 0px 10px 0px;width:210px;">
+<div class="dropdown dropup">
+<ul class="dropdown-menu" style="font-size:14px;" id="his_list"></ul>
+<a class="revision-btn-history" data-toggle="dropdown" id="btn_gethis" >
+<i class="icon-chevron-left icon-white" style="margin-top:33px;"></i>
+</a>
+</div>
+<a data-container="body" id="show_next" href="/" class="btn-normal revision-btn-next x-next-movie x-tooltip" style="text-decoration:none;"
+data-toggle="tooltip" data-placement="right" title="换一个影片 ( 快捷键 N )">
+<span>换一个看看&nbsp</span><i class="icon-white icon-chevron-right" style="margin-top:33px;";></i>
+</a>
+</div>
+</div>
+<div class="xx-play-button" >
+<a href="{Link}" target="_blank" class="q" data-title="立即播放" style="display:none;">
+<img src="picture/kankan_play.png" alt="播放按钮">
+</a>
+</div>
+
+
+
+<img src="/picture/3fbbabcc4d6e4c78a4bb5ed8d354b77d.gif" style="display:none;" alt="下一部电影">
+
+
+</div>
+
+
+{footer}
+
+<script>
+
+
+    window.setTimeout(function () {
+        $('.xx-play-button a').fadeIn(500, function () {
+            window.setTimeout(function () {
+                if (!$('.xx-play-button a').attr('data-hover')) {
+                    $('.xx-play-button a').hide();
+                }
+            }, 10 * 1000);
+        });
+    }, 500);
+    $('.xx-play-button').mouseenter(function () {
+        $(this).children('a').show();
+        $(this).children('a').attr('data-hover', 'true');
+    }).mouseleave(function () {
+        $(this).children('a').hide();
+    });
+
+    $('.q').tooltip();
+
+    $(document).bind('keyup', 'n N', function () {
+        window.location.href = $('.x-next-movie').attr('href');
+    });
+    $(document).bind('keyup', 'l L', function () {
+        $('.x-kankan-buttons a:first').click();
+    });
+
+    $('#show_full_desc').click(function () {
+        $(".x-kankan-detail").css("height", "auto");
+        $('.x-kankan-desc').html($('.x-kankan-full-desc').html());
+    });
+    $('a#btn_gethis').click(function () {
+        if ($('ul#his_list').attr('loaded') == undefined) {
+            $('ul#his_list').attr('loaded', 'loaded');
+
+            $.getJSON('/discovery?cmd=get_his&cookie_id=&count=10&callback=?').done(
+function (data) {
+    var ul = $('ul#his_list');
+    data.reverse();
+    for (i in data) {
+        var a = $('<a/>').attr('href', '/kankan?id=' + data[i][0])
+        a.text(data[i][1]);
+        var li = $('<li/>').append(a);
+        ul.append(li);
+    }
+}
+);
+        }
+        $('ul#hig_list').dropdown('toggle');
+    });
+    $('#ctrl_mark_more_options').click(function () {
+        var more_options = $('#mark_more_options');
+        $(this).hide();
+        more_options.show();
+    });
+</script>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=7&amp;pos=right&amp;uid=6595821&amp;" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+    /**
+    * 在这里定义bds_config
+    */
+    var bds_config = {
+        "bdTop": 221,
+        'bdDes': '第一影院 发现更多精彩电影！', //'请参考自定义分享摘要'
+        'bdText': '哇噻！好霸气的海报', //'请参考自定义分享内容'
+        'bdPopTitle': '您的自定义pop窗口标题', //'请参考自定义pop窗口标题'
+        'bdComment': '电影推荐非常到位，海报非常清晰！', //'请参考自定义分享评论'
+        'bdPic': '/dyImg/bigImg/{ImagePath}', //'请参考自定义分享出去的图片'
+        'searchPic': 1
+    }
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000);
+</script>
+<!-- Baidu Button END -->
+
+
+
+
+
+
+
+
+</body>
+</html>

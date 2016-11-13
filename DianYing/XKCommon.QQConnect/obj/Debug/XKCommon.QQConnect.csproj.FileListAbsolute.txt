@@ -1,0 +1,12 @@
+E:\Zxxk2013_10_18\XKCommon\XKCommon.QQConnect\bin\Debug\XKCommon.QQConnect.dll
+E:\Zxxk2013_10_18\XKCommon\XKCommon.QQConnect\bin\Debug\XKCommon.QQConnect.pdb
+E:\Zxxk2013_10_18\XKCommon\XKCommon.QQConnect\obj\Debug\XKCommon.QQConnect.dll
+E:\Zxxk2013_10_18\XKCommon\XKCommon.QQConnect\obj\Debug\XKCommon.QQConnect.pdb
+C:\Users\carl110\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\bin\Debug\XKCommon.QQConnect.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\bin\Debug\XKCommon.QQConnect.pdb
+C:\Users\carl110\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\obj\Debug\XKCommon.QQConnect.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\obj\Debug\XKCommon.QQConnect.pdb
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\bin\Debug\XKCommon.QQConnect.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\bin\Debug\XKCommon.QQConnect.pdb
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\obj\Debug\XKCommon.QQConnect.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\XKCommon.QQConnect\obj\Debug\XKCommon.QQConnect.pdb

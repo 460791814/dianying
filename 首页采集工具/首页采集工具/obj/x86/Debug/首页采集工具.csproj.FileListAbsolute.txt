@@ -1,0 +1,11 @@
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\bin\Debug\首页采集工具.exe.config
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\bin\Debug\首页采集工具.exe
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\bin\Debug\首页采集工具.pdb
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.Form1.resources
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.Properties.Resources.resources
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.csproj.GenerateResource.Cache
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.exe
+C:\Users\carl110\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.pdb
+C:\Users\Administrator\Desktop\code\电影项目\首页采集工具\首页采集工具\bin\Debug\首页采集工具.exe.config
+C:\Users\Administrator\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.exe
+C:\Users\Administrator\Desktop\code\电影项目\首页采集工具\首页采集工具\obj\x86\Debug\首页采集工具.pdb

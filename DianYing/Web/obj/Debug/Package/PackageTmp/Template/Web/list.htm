@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>第一影院 - 最新电影,最热电影,分类电影,电影大全,云点播 </title>
+    <meta name="viewport" content="minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+     
+    <link href="/Style/diyibk.min.css" rel="stylesheet" type="text/css" />
+   <link href="/Style/Default.css" rel="stylesheet" type="text/css" />
+    <link href="/Style/Page.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico?v=4fdcf" />
+    <meta name="keywords" content="最新电影，最热电影，电影大全，电影排行榜">
+    <meta name="description" content="最新电影/电视剧在线观看,下载高清在线观看和最新迅雷下载种子信息,电影FM拥有最新的电影/电视剧在线观看,下载,欢迎选择电影FM。">
+    <style>
+        /** Loader **/#loader
+        {
+            height: 48px;
+            text-align: center;
+            padding: 25px 0 25px 0;
+        }
+        #loaderCircle
+        {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto;
+        }
+        .x-movie-detail
+        {
+            background-color: #fff;
+            padding: 10px;
+            max-width: 294px;
+            width: 294px;
+            margin: 0px 9px 10px 0px;
+            overflow-y: hidden;
+            position: relative;
+            box-shadow: 0 0 30px #eee;
+        }
+    </style>
+    <!-- other header -->
+    <meta property="qc:admins" content="551557634161167665" />
+
+</head>
+<body>
+  {header}
+
+    <script type="text/javascript">
+        document.getElementById("search_input").value = '{KeyWord}';
+    </script>
+    <div id="main_content" style="width: 960px;" class="container">
+        <div class="subnav subnav-fixed" style="margin-top: -15px; height: 35px; width: 960px;
+            margin-bottom: 6px;">
+            <ul class="nav nav-pills">
+                <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            
+                   <span>{Channel}</span>
+           
+                     <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                       {ChannelList}
+                      
+                    </ul>
+                </li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      
+                    <span>{Year}</span>
+                
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      {YearList}
+                    </ul>
+                </li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>
+                   {Area}</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="/category/">不限</a></li>
+                      {AreaList}
+                      
+                    </ul>
+                </li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>
+                    {Type}</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="/category/">不限</a></li>
+                      {TypeList}
+                    </ul>
+                </li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              
+                   <span>{OrderBy}</span>
+            
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      {OrderByList}
+                    </ul>
+                </li>
+{KeyName}
+
+            </ul>
+        </div>
+        <div id="category" class="x-category-result x-usermovie-controls" style="">
+            <ul id="videolist" class="x-movie-list nav nav-pills" style="width: 969px; padding: 0px;">
+            {MovieList}
+               <!--<MovieListBegin>
+                        <li>
+                            <div class="x-movie-detail">
+                                <div class="pull-left x-movie-mediumimg">
+                                    <a data-movie="playmask" class="z-movie-playlink" target="_blank" href="/movie/{MovieId}">
+                                        <div>
+                                       
+                                   <img alt="{MovieName}" src="{ImagePath}">
+                                        
+                                        </div>
+                                        <div class="z-movie-playmask" style="visibility: hidden;">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="x-movie-desc pull-left">
+                                    <p>
+                                        <a target="_blank" href="/movie/{MovieId}">
+                                            {MovieName}</a> <span class="muted">
+                                             
+                                            </span>
+                                    </p>
+                                    <table cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                      {DBScore}
+
+                                            <tr>
+                                                <td>
+                                                    <span class="x-item-name">类型：</span>
+                                                    {Type}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="x-item-name">主演：</span>
+                                                    {Actor}
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="btn-group x-usermovie-buttons x-usermovie-controls">
+                                         {Like}
+                                         {Plan}
+                                         {Seen}
+                                    </div>
+                                </div>
+                                <div style="clear: both">
+                                </div>
+                            </div>
+                        </li>
+                   <MovieListEnd>-->
+            </ul>
+        </div>
+        <div class="clearfix" id="pager_out">
+            <div class="fl" style="padding: 8px 0 0 120px;">
+            </div>
+            <div class="pagin fr" id="pager_in">
+               {PageString}
+            </div>
+        </div>
+        <div class="well" style="text-align: center; margin-top: 20px; font-size: 13px;">
+            <div class="">
+
+            </div>
+            <div class="muted">
+                Copyright &copy; 2014 第一博客
+            </div>
+        </div>
+        <div style="display: none;">
+        </div>
+    </div>
+    <div class="btn-group btn-group-vertical z-rightedge-container" style="left: 50%;">
+        <a href="javascript:void(0);" class="btn btn-small z-rightedge-buttom" id="gotop"><i
+            class="icon-arrow-up"></i></br>回</br>到</br>顶</br>部 </a><a href="javascript:void(0)" style=""
+                class="btn btn-small z-rightedge-buttom" alt="">反</br>馈</br>意</br>见 </a>
+    </div>
+    {footer}
+    
+
+</body>
+</html>

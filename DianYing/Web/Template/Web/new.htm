@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>最新电影 - 第一影院 </title>
+    <meta name="viewport" content="minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="/Style/diyibk.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Style/default.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico?v=4fdcf" />
+    <meta name="description" content="第一影院是专注于电影信息和电影相关资源搜索的专题网站，第一时间为您提供最新的电影资源。">
+    <meta name="keywords" content="第一影院,电影,电影搜索,电影资料,在线观看,最新电影,热门电影,电影排行榜">
+    <meta name="title" content="第一影院 - 最大的电影资源网站">
+    <!-- other header -->
+    <meta property="qc:admins" content="551557634161167665" />
+</head>
+<body>
+    {header}
+    <div id="main_content" style="width: 960px;" class="container">
+        <div class="alert" style="margin-bottom: 5px;">
+            <button type="button" class="close" data-dismiss="alert">
+                ×</button>
+            该栏目为本站机器自动获取的资源，不保证资源有效，请谅解 !
+        </div>
+        <div>
+            <table class="table table-striped">
+                <tr>
+                  
+                    <th class="span2">
+                        更新日期
+                    </th>
+                    <th>
+                        电影
+                    </th>
+                    <th>
+                        地区
+                    </th>
+                    <th>
+                        导演
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+                {MovieNew}
+                <!--<MovieNewBegin>
+                <tr>
+                    
+                    <td>
+                        {UpdateTime}
+                    </td>
+                    <td>
+                        <a alt="{MovieName}" href="/movie/{MovieId}" target="_blank">{MovieName} </a>
+                    </td>
+                    <td>
+                        {Area}
+                    </td>
+                    <td>
+                        {Director}
+                    </td>
+                    <td>
+                      
+                        <a target="_blank" href="/movie/{MovieId}" class="btn btn-mini"><i class="icon-play">
+                        </i>播放</a>
+                    </td>
+                </tr>
+                <MovieNewEnd>-->
+            </table>
+        </div>
+        <div class="well" style="text-align: center; margin-top: 20px; font-size: 13px;">
+            
+            <div class="muted">
+                Copyright &copy; 2014 第一博客 </div>
+        </div>
+      {footer}
+    </div>
+    <div class="btn-group btn-group-vertical z-rightedge-container" style="left: 50%;">
+        <a href="javascript:void(0);" class="btn btn-small z-rightedge-buttom" style="display: none;"
+            id="gotop"><i class="icon-arrow-up"></i></br>回</br>到</br>顶</br>部 </a><a href="/opinion"
+                style="" class="btn btn-small z-rightedge-buttom" alt="">反</br>馈</br>意</br>见
+        </a>
+    </div>
+</body>
+</html>

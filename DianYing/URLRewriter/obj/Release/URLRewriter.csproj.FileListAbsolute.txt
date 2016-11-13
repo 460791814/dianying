@@ -1,0 +1,28 @@
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\JZHQ20140407\JZHQ\URLRewriter\obj\Release\URLRewriter.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\carl110\Desktop\JZHQ20140428\JZHQ\URLRewriter\obj\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\JZHQ2014-4-28 22.32.23\JZHQ\URLRewriter\obj\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\code\JZHQ\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.pdb
+C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.pdb
+C:\Users\carl110\Desktop\code\电影项目\DianYing\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\carl110\Desktop\code\电影项目\DianYing\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\URLRewriter\obj\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\URLRewriter\bin\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\URLRewriter\bin\Release\URLRewriter.pdb
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\URLRewriter\obj\Release\URLRewriter.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\URLRewriter\obj\Release\URLRewriter.pdb

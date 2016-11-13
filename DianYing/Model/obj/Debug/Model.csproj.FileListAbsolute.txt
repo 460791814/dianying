@@ -1,0 +1,8 @@
+C:\Users\carl110\Desktop\code\电影项目\DianYing\Model\bin\Debug\DianYing.Model.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\Model\bin\Debug\DianYing.Model.pdb
+C:\Users\carl110\Desktop\code\电影项目\DianYing\Model\obj\Debug\DianYing.Model.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\Model\obj\Debug\DianYing.Model.pdb
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\Model\bin\Debug\DianYing.Model.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\Model\bin\Debug\DianYing.Model.pdb
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\Model\obj\Debug\DianYing.Model.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\Model\obj\Debug\DianYing.Model.pdb

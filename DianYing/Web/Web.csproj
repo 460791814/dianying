@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B535162-10C2-4238-BC56-193B968E1834}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DianYing.Web</RootNamespace>
+    <AssemblyName>DianYing.Web</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LTP.Accounts, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\LTP.Accounts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LtpPageControl, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Lib\LtpPageControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.UI.WebControls, Version=1.0.2.226, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Microsoft.Web.UI.WebControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.5.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="QConnectSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\QConnectSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=102.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\btn.png" />
+    <Content Include="Images\d59611544b924e208eb81f3ebb051463.gif" />
+    <Content Include="Images\ftp-img.jpg" />
+    <Content Include="Images\glyphicons-halflings-white.png" />
+    <Content Include="Images\glyphicons-halflings.png" />
+    <Content Include="Images\header-bg-gradient.png" />
+    <Content Include="Images\trans.gif" />
+    <Content Include="Images\yf_info_bg.png" />
+    <Content Include="Info.aspx" />
+    <Content Include="JS\analytics.js" />
+    <Content Include="JS\artDialog4.1.7\artDialog.js" />
+    <Content Include="JS\artDialog4.1.7\artDialog.source.js" />
+    <Content Include="JS\artDialog4.1.7\index.html" />
+    <Content Include="JS\artDialog4.1.7\jquery.artDialog.js" />
+    <Content Include="JS\artDialog4.1.7\jquery.artDialog.source.js" />
+    <Content Include="JS\artDialog4.1.7\license.txt" />
+    <Content Include="JS\artDialog4.1.7\plugins\iframeTools.js" />
+    <Content Include="JS\artDialog4.1.7\plugins\iframeTools.source.js" />
+    <Content Include="JS\artDialog4.1.7\skins\aero.css" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\aero_s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\aero_s2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_close.hover.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_close.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_e.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_n.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_ne.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_nw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_se.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_sw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_title_icon.png" />
+    <Content Include="JS\artDialog4.1.7\skins\aero\ie6\aui_w.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black.css" />
+    <Content Include="JS\artDialog4.1.7\skins\black\bg.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\bg2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\bg_css3.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\bg_css3_2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\close.hover.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\close.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\e.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\n.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\ne.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\nw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\se.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\sw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\black\ie6\w.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue.css" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\bg.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\bg2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\bg_css3.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\bg_css3_2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\close.hover.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\close.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\e.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\n.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\ne.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\nw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\se.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\sw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\blue\ie6\w.png" />
+    <Content Include="JS\artDialog4.1.7\skins\chrome.css" />
+    <Content Include="JS\artDialog4.1.7\skins\chrome\border.png" />
+    <Content Include="JS\artDialog4.1.7\skins\chrome\chrome_s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\default.css" />
+    <Content Include="JS\artDialog4.1.7\skins\green.css" />
+    <Content Include="JS\artDialog4.1.7\skins\green\bg.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\bg2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\bg_css3.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\bg_css3_2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\color_bg.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\close.hover.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\close.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\e.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\n.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\ne.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\nw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\se.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\sw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\green\ie6\w.png" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\error.png" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\face-sad.png" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\face-smile.png" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\loading.gif" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\question.png" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\succeed.png" />
+    <Content Include="JS\artDialog4.1.7\skins\icons\warning.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog.css" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\idialog_s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\idialog_s2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_close.hover.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_close.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_e.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_n.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_ne.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_nw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_se.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_sw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\idialog\ie6\aui_w.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera.css" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_close.hover.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_close.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_e.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_n.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_ne.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_nw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_s.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_se.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_sw.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\ie6\aui_w.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\s1.png" />
+    <Content Include="JS\artDialog4.1.7\skins\opera\s2.png" />
+    <Content Include="JS\artDialog4.1.7\skins\simple.css" />
+    <Content Include="JS\artDialog4.1.7\skins\twitter.css" />
+    <Content Include="JS\artDialog4.1.7\_doc\ajaxContent\content.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\ajaxContent\googleMaps.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\ajaxContent\login.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\API.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\demo.css" />
+    <Content Include="JS\artDialog4.1.7\_doc\demo.js" />
+    <Content Include="JS\artDialog4.1.7\_doc\down.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\frameset.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\googleMaps.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\helloWorld.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\AUTHORS.en.txt" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\export.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\highlight.js" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\highlight.pack.js" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\languages\javascript.js" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\readme.eng.txt" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\styles\magula.css" />
+    <Content Include="JS\artDialog4.1.7\_doc\highlight\test.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\iframe.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\iframeA.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\iframeB.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\iframeTop.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\iframe_frameset.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\alipay.jpg" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\bg.png" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\bottom.png" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\doc.png" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\lixiaolong.png" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\logo.png" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\opensource.gif" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\photo.jpg" />
+    <Content Include="JS\artDialog4.1.7\_doc\images\text.png" />
+    <Content Include="JS\artDialog4.1.7\_doc\labs.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\license.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\log.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\login_iframe.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\login_iframe_2.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\new.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\plugin.iframe.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\topFrame.html" />
+    <Content Include="JS\artDialog4.1.7\_doc\upd.txt" />
+    <Content Include="JS\bootstrap_gai.js" />
+    <Content Include="JS\bootstrap_gai.min.js" />
+    <Content Include="JS\cookie.js" />
+    <Content Include="JS\diyibk.js" />
+    <Content Include="JS\jquery-1.8.2.js" />
+    <Content Include="JS\jquery.hotkeys.js" />
+    <Content Include="JS\jquery.js" />
+    <Content Include="JS\jquery.min.js" />
+    <Content Include="JS\jquery.placeholder.min.js" />
+    <Content Include="JS\list_more.js" />
+    <Content Include="JS\list_more_gai.js" />
+    <Content Include="JS\playmask.js" />
+    <Content Include="JS\pop_login.js" />
+    <Content Include="JS\rg_movie.js" />
+    <Content Include="JS\scroll_top.js" />
+    <Content Include="JS\track.js" />
+    <Content Include="JS\uploadifyAuth\jquery.uploadify.js" />
+    <Content Include="JS\uploadifyAuth\jquery.uploadify.min.js" />
+    <Content Include="JS\uploadifyAuth\uploadify-cancel.png" />
+    <Content Include="JS\uploadifyAuth\uploadify.css" />
+    <Content Include="JS\uploadifyAuth\uploadify.swf" />
+    <Content Include="JS\uploadify\jquery.uploadify.js" />
+    <Content Include="JS\uploadify\jquery.uploadify.min.js" />
+    <Content Include="JS\uploadify\uploadify-cancel.png" />
+    <Content Include="JS\uploadify\uploadify.css" />
+    <Content Include="JS\uploadify\uploadify.swf" />
+    <Content Include="List.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Manage\AdminLogin.aspx" />
+    <Content Include="Manage\ChannelList.aspx" />
+    <Content Include="Manage\DataManage.aspx" />
+    <Content Include="Manage\HomeManage.aspx" />
+    <Content Include="Manage\LinkInfo.aspx" />
+    <Content Include="Manage\Manage.aspx" />
+    <Content Include="Manage\MovieInfo.aspx" />
+    <Content Include="Manage\PlayLinkInfo.aspx" />
+    <Content Include="Manage\UploadImg.aspx" />
+    <Content Include="New.aspx" />
+    <Content Include="picture\2b819346bd7549fd9d8a12bbd75589a1.gif" />
+    <Content Include="picture\33fecc35d11543cc8c729c06fdce0d0f.gif" />
+    <Content Include="picture\3fbbabcc4d6e4c78a4bb5ed8d354b77d.gif" />
+    <Content Include="picture\44f9ceb1eb0d4ef8b2d12bca5ebd8737.gif" />
+    <Content Include="picture\61.com.ico" />
+    <Content Include="picture\a33e95f2da98499b9abc6605f71e5496.gif" />
+    <Content Include="picture\a77ab37c90a246d4be760d80eeff29a8.gif" />
+    <Content Include="picture\56.com.ico" />
+    <Content Include="picture\baofeng.com.ico" />
+    <Content Include="picture\bc0852a1892a4b0ab9328538c4370601.gif" />
+    <Content Include="picture\button_png.png" />
+    <Content Include="picture\c0bdf97898054fb88c40d4435c5c826f.gif" />
+    <Content Include="picture\cntv.cn.ico" />
+    <Content Include="picture\connect_baidu.png" />
+    <Content Include="picture\connect_qq.png" />
+    <Content Include="picture\connect_weibo.png" />
+    <Content Include="picture\e6aa9fd87f1f48588e5ac9c1a3e454e5.gif" />
+    <Content Include="picture\fun.tv.ico" />
+    <Content Include="picture\hunantv.com.ico" />
+    <Content Include="picture\iqiyi.com.ico" />
+    <Content Include="picture\kankan.com.ico" />
+    <Content Include="picture\kankan_play.png" />
+    <Content Include="picture\kumi.cn.ico" />
+    <Content Include="picture\letv.com.ico" />
+    <Content Include="picture\loading.gif" />
+    <Content Include="picture\m1905.com.ico" />
+    <Content Include="picture\pps.tv.ico" />
+    <Content Include="picture\sohu.com.ico" />
+    <Content Include="picture\wasu.cn.ico" />
+    <Content Include="picture\youku.com.ico" />
+    <Content Include="picture\tudou.com.ico" />
+    <Content Include="picture\TenXun.ico" />
+    <Content Include="Play.aspx" />
+    <Content Include="QQlogin\CallBack.aspx" />
+    <Content Include="QQlogin\Login.aspx" />
+    <Content Include="Style\bootstrap.min_1.css" />
+    <Content Include="Style\bootstrap_gai.min.css" />
+    <Content Include="Style\diyibk.min.css" />
+    <Content Include="Style\Default.css" />
+    <Content Include="Style\homework.css" />
+    <Content Include="Style\Page.css" />
+    <Content Include="Style\playlink.css" />
+    <Content Include="Style\playlink_1.css" />
+    <Content Include="Style\share.css" />
+    <Content Include="Style\Style.css" />
+    <Content Include="Style\yf_liebiao.css" />
+    <Content Include="Template\Manage\header.htm" />
+    <Content Include="Template\Web\default.htm" />
+    <Content Include="Template\Web\footer.htm" />
+    <Content Include="Template\Web\header.htm" />
+    <Content Include="Template\Manage\HomeManage.htm" />
+    <Content Include="Template\Manage\Manage.htm" />
+    <Content Include="Template\Manage\ManageLogin.htm" />
+    <Content Include="Template\Web\info.htm" />
+    <Content Include="Template\Web\list.htm" />
+    <Content Include="Template\Web\new.htm" />
+    <Content Include="Template\Web\play.htm" />
+    <Content Include="Template\Web\tuijian.htm" />
+    <Content Include="TuiJian.aspx" />
+    <Content Include="User\Identify.aspx" />
+    <Content Include="User\UserCenter.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="yzm.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\ManagePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\IdentityHandler.ashx.cs">
+      <DependentUpon>IdentityHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\UpdateHandler.ashx.cs">
+      <DependentUpon>UpdateHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\UploadHandler.ashx.cs">
+      <DependentUpon>UploadHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Info.aspx.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info.aspx.designer.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\ChannelList.aspx.cs">
+      <DependentUpon>ChannelList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\ChannelList.aspx.designer.cs">
+      <DependentUpon>ChannelList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\DataManage.aspx.cs">
+      <DependentUpon>DataManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\DataManage.aspx.designer.cs">
+      <DependentUpon>DataManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\HomeManage.aspx.cs">
+      <DependentUpon>HomeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\HomeManage.aspx.designer.cs">
+      <DependentUpon>HomeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\LinkInfo.aspx.cs">
+      <DependentUpon>LinkInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\LinkInfo.aspx.designer.cs">
+      <DependentUpon>LinkInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\MovieInfo.aspx.cs">
+      <DependentUpon>MovieInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\MovieInfo.aspx.designer.cs">
+      <DependentUpon>MovieInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\PlayLinkInfo.aspx.cs">
+      <DependentUpon>PlayLinkInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\PlayLinkInfo.aspx.designer.cs">
+      <DependentUpon>PlayLinkInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\UploadBigImg.ashx.cs">
+      <DependentUpon>UploadBigImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\UploadHandler.ashx.cs">
+      <DependentUpon>UploadHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\UploadImg.aspx.cs">
+      <DependentUpon>UploadImg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\UploadImg.aspx.designer.cs">
+      <DependentUpon>UploadImg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New.aspx.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New.aspx.designer.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Play.aspx.cs">
+      <DependentUpon>Play.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Play.aspx.designer.cs">
+      <DependentUpon>Play.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QQlogin\CallBack.aspx.cs">
+      <DependentUpon>CallBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QQlogin\CallBack.aspx.designer.cs">
+      <DependentUpon>CallBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QQlogin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QQlogin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tool\ManageTemplate.cs" />
+    <Compile Include="Tool\StringTool.cs" />
+    <Compile Include="Tool\Template.cs" />
+    <Compile Include="Tool\Validate.cs" />
+    <Compile Include="TuiJian.aspx.cs">
+      <DependentUpon>TuiJian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TuiJian.aspx.designer.cs">
+      <DependentUpon>TuiJian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Identify.aspx.cs">
+      <DependentUpon>Identify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Identify.aspx.designer.cs">
+      <DependentUpon>Identify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserCenter.aspx.cs">
+      <DependentUpon>UserCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\UserCenter.aspx.designer.cs">
+      <DependentUpon>UserCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yzm.aspx.cs">
+      <DependentUpon>yzm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yzm.aspx.designer.cs">
+      <DependentUpon>yzm.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PageUI\PageUI.csproj">
+      <Project>{B5597133-260F-4230-927E-970898B39186}</Project>
+      <Name>PageUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\URLRewriter\URLRewriter.csproj">
+      <Project>{93BC01A3-A42C-44D9-83CB-6A249A284A96}</Project>
+      <Name>URLRewriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XKCommon.QQConnect\XKCommon.QQConnect.csproj">
+      <Project>{D845CDBA-C428-4D3D-BD85-2800AB17000D}</Project>
+      <Name>XKCommon.QQConnect</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\IdentityHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\UploadHandler.ashx" />
+    <Content Include="Handler\UpdateHandler.ashx" />
+    <None Include="JS\artDialog4.1.7\_doc\ajaxContent\content.json" />
+    <None Include="JS\artDialog4.1.7\_doc\commercial_license.doc" />
+    <None Include="JS\artDialog4.1.7\_doc\highlight\LICENSE" />
+    <Content Include="Manage\UploadHandler.ashx" />
+    <Content Include="Manage\UploadBigImg.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13239</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

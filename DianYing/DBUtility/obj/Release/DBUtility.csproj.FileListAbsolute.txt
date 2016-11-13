@@ -1,0 +1,8 @@
+C:\Users\carl110\Desktop\code\电影项目\DianYing\DBUtility\bin\Release\DianYing.DBUtility.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\DBUtility\bin\Release\IBatisNet.Common.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\DBUtility\bin\Release\IBatisNet.DataMapper.dll
+C:\Users\carl110\Desktop\code\电影项目\DianYing\DBUtility\obj\Release\DianYing.DBUtility.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\DBUtility\bin\Release\DianYing.DBUtility.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\DBUtility\bin\Release\IBatisNet.Common.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\DBUtility\bin\Release\IBatisNet.DataMapper.dll
+C:\Users\Administrator\Desktop\code\电影项目\DianYing\DBUtility\obj\Release\DianYing.DBUtility.dll

@@ -1,0 +1,46 @@
+﻿.pagin a, .pagin span {
+float: left;
+height: 20px;
+padding: 3px 10px;
+border: 1px solid #ccc;
+margin-left: 2px;
+font-family: arial;
+line-height: 20px;
+font-size: 14px;
+overflow: hidden;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.clearfix {
+display: block;
+}
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.pagin {
+float: right;
+height: 22px;
+padding: 10px 0 6px;
+border-left: 1px solid #fff;
+}
+
+.pagin .text, .pagin .current {
+border: 0;
+padding: 4px 11px;
+}
+
+.pagin a:hover, .pagin a:active {
+background: #005aa0;
+color: #fff;
+text-decoration: none;
+}
+
+.pagin .current, .pagin .current:link, .pagin .current:visited {
+color: #f60;
+font-weight: 700;
+}
